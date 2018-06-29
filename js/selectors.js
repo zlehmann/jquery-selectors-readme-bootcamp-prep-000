@@ -1,6 +1,5 @@
 function paragraphSelector() {
-  const list = document.querySelectorAll('p');
-  return list;
+  return $('p')
 }
 
 function lastImageSelector() {
@@ -13,4 +12,8 @@ function ninjaBabySelector() {
 
 function divSelector() {
   return $('div.pics')
+}
+
+function firstListItem() {
+  return $('#pic-list:first')
 }
