@@ -1,3 +1,5 @@
 function paragraphSelector() {
-  const list = document.
+  const list = document.querySelectorAll('p');
+  return list;
 }
+
