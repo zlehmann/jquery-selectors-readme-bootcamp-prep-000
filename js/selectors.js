@@ -4,5 +4,6 @@ function paragraphSelector() {
 }
 
 function lastImageSelector() {
-  return document.querySelector('img:last');
+  const lastImg = document.querySelector('img:last')
+  return lastImg;
 }
