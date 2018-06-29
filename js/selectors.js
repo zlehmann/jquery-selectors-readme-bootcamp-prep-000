@@ -3,3 +3,6 @@ function paragraphSelector() {
   return list;
 }
 
+function lastImageSelector() {
+  return document.querySelector('img:last');
+}
