@@ -4,6 +4,6 @@ function paragraphSelector() {
 }
 
 function lastImageSelector() {
-  const lastImg = document.querySelector('img:last')
-  return lastImg;
+  const lastImg = document.querySelectorAll('img')
+  return lastImg[lastImg.length];
 }
